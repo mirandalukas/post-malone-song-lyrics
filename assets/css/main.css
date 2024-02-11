@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+html {
+    color-scheme: dark light;
+}
+body {
+    min-height: 100vh;
+}
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+img {
+    height: 100%;
+}
+p {
+    transform: matrix(1, -0.3, 1, 5, 5, 0);
+  }
+ video {
+    width: 100%;
+    aspect-ratio: 16/9;
+ }
+h1 {
+    text-align: center;
+    font-size: 1rem;
+    transform: matrix(5, 1, 2, 7, 2, 250);
+}
